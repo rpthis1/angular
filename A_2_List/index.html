@@ -1,0 +1,19 @@
+
+<html ng-app >
+<head>
+    <title></title>
+    <script type="text/javascript" src="../angular.min.js"></script>
+    <script type="text/javascript" src="CartController.js"></script>
+</head>
+<body ng-controller="CartController">
+
+<div ng-repeat="item in items">
+
+    <span>{{item.title}}</span>
+    <span>{{item.price}}</span>
+
+
+</div>
+
+</body>
+</html>
