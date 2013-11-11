@@ -13,7 +13,12 @@ function CartController($scope)
 
         {title:"item one", price:10},
         {title:"item two", price:45}
-    ]
+    ];
+
+    $scope.remove = function(index)
+    {
+        $scope.items.splice(index,1);
+    }
 
 
 }

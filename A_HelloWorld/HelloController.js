@@ -8,5 +8,5 @@
 
 function HelloController($scope)
 {
-    $scope.greeting = {text:"Hello World"};
+    $scope.greeting = {text:"Hello World!"};
 }
