@@ -7,18 +7,23 @@
  */
 
 
-function CartController($scope)
-{
-    $scope.items = [
 
-        {title:"item one", price:10},
-        {title:"item two", price:45}
-    ];
 
-    $scope.remove = function(index)
+var appModule = angular.module("app", []);
+
+appModule.controller('CartController',function($scope)
     {
-        $scope.items.splice(index,1);
+        $scope.items = [
+
+            {title:"item one", price:10},
+            {title:"item two", price:45}
+        ];
+
+        $scope.remove = function f(index) {
+            $scope.items.splice(index, 1);
+        }
+
+
     }
+);
 
-
-}
