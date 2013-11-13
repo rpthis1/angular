@@ -9,8 +9,8 @@
 
 <div ng-repeat="item in items">
 
-    <span>{{item.title}}</span>
-    <span>{{item.price}}</span>
+    <span ng-bind="item.title"></span>
+    <span ng-bind="item.price"></span>
     <button ng-click="remove($index)">
         remove
     </button>

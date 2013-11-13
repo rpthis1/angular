@@ -15,8 +15,8 @@ appModule.controller('CartController',function($scope)
     {
         $scope.items = [
 
-            {title:"item one", price:10},
-            {title:"item two", price:45}
+            {title:"item one", price:15},
+            {title:"item two", price:46}
         ];
 
         $scope.remove = function f(index) {
