@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="../angular.min.js">
+
+    </script>
+
+    <script type="text/javascript" src="FormWatchController.js">
+
+    </script>
+</head>
+<body>
+
+<form ng-controller="FormWatchController">
+
+
+    Starting:
+
+    <input ng-model="funding.starting"/>
+    <br/>
+    Needed:
+    <span ng-bind="funding.needed">
+
+
+    </span>
+
+
+</form>
+
+</body>
+</html>
