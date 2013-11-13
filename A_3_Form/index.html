@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="../angular.min.js">
+    </script>
+
+    <script type="text/javascript" src="FormController.js">
+    </script>
+</head>
+<body>
+
+<form ng-controller="FormController">
+
+
+
+    Starting:
+    <input ng-change="calculate()" ng-model="funding.starting">
+    </input>
+
+    Needed:
+
+    <span ng-bind="funding.needed">
+    </span>
+
+
+
+
+</form>
+
+</body>
+</html>
