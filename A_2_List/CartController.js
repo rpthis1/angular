@@ -19,9 +19,16 @@ appModule.controller('CartController',function($scope)
             {title:"item two", price:46}
         ];
 
-        $scope.remove = function f(index) {
+        $scope.remove = function (index) {
             $scope.items.splice(index, 1);
         }
+
+        $scope.add = function ()
+        {
+
+            $scope.items.splice(0,0,{title:"item three", price:58});
+        }
+
 
 
     }

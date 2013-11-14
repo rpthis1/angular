@@ -23,4 +23,9 @@ app.controller("FormWatchController", function($scope)
 
     $scope.$watch("funding.starting", calc);
 
+    $scope.onsub = function ()
+    {
+        console.log("clicked");
+    }
+
 });
