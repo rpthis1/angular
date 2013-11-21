@@ -1,0 +1,18 @@
+
+<div >
+
+    <div ng-repeat="email in emails">
+
+        <span ng-bind="email.id"></span>
+
+        <span ng-bind="email.from"></span>
+
+        <span ng-bind="email.subject"></span>
+
+        <br/>
+        <a ng-href="#view/{{email.id}}">details</a>
+
+    </div>
+
+
+</div>
