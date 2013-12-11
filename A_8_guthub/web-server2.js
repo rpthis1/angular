@@ -3,6 +3,7 @@ var express = require("express"),
   port    = parseInt(process.env.PORT, 10) || 8091;
 
 var db = require("mongojs").connect("54.201.72.223:27017/local", ["notes"]);
+var ObjectId = require('mongodb').ObjectID;
 
 app.configure(function(){
   app.use(express.methodOverride());
@@ -35,67 +36,87 @@ var recipes_map = {
     ]
   }
 };
-var next_id = 3;
+
 
 app.get('/recipes', function(req, res) {
-  var recipes = [];
-
-  for (var key in recipes_map) {
-    recipes.push(recipes_map[key]);
-  }
-
-
-    var obj;
-    db.notes.find({}, function(err, users) {
-        if( err || !users)
+    db.notes.find({}, function(err, notes) {
+        if( err || !notes)
         {
-            console.log("No female users found");
+            console.log("no notes");
         }
         else
         {
-           obj = users;
+            res.send(notes);
         }
     });
-
-
-
-
-
-  // Simulate delay in server
-  setTimeout(function() {
-    res.send(obj);
-  }, 9000);
 });
 
-app.get('/recipes/:id', function(req, res) {
-  console.log('Requesting recipe with id', req.params.id);
-  res.send(recipes_map[req.params.id]);
+app.get('/recipes/:_id', function(req, res) {
+
+    console.log("PRE : " + req.params._id);
+
+
+    if( req.params._id != "undefined" )
+    {
+        console.log("inn : " + req.params._id);
+   db.notes.find({ '_id': ObjectId(req.params._id) }, function(err, notes) {
+        if( err || !notes)
+       {
+           console.log("no notes");
+       }
+       else
+       {
+            res.send(notes[0]);
+        }
+   });
+
+    }
+
 });
 
 app.post('/recipes', function(req, res) {
-  var recipe = {};
-  recipe.id = next_id++;
-  recipe.title = req.body.title;
-  recipe.description = req.body.description;
-  recipe.ingredients = req.body.ingredients;
-  recipe.instructions = req.body.instructions;
+  var recipe = req.body;
 
-  recipes_map[recipe.id] = recipe;
+    db.notes.insert(req.body , function(err, notes) {
+        if( err || !notes)
+        {
+            console.log("no notes");
+        }
+        else
+        {
+            res.send(notes[0]);
+        }
+    });
+
+    recipe._id = "3343a";
 
   res.send(recipe);
 });
 
-app.post('/recipes/:id', function(req, res) {
-  var recipe = {};
-  recipe.id = req.params.id;
-  recipe.title = req.body.title;
-  recipe.description = req.body.description;
-  recipe.ingredients = req.body.ingredients;
-  recipe.instructions = req.body.instructions;
+app.post('/recipes/:_id', function(req, res) {
+  var oldNote  = req.body;
+  var note = {};
+  note = req.body;
 
-  recipes_map[recipe.id] = recipe;
+  delete  note._id;
+    if( req.params._id != "undefined" )
+    {
 
-  res.send(recipe);
+        db.notes.update({ '_id': ObjectId(req.params._id) } , note , function(err, notes) {
+            if( err || !notes)
+            {
+                console.log("no notes");
+            }
+            else
+            {
+                res.send(notes[0]);
+            }
+        });
+
+    }
+
+          oldNote._id = req.params._id
+          res.send(oldNote);
 });
 
 app.listen(port);
