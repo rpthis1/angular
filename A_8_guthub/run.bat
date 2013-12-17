@@ -1,2 +1,2 @@
-cd C:\github\angular\angularjs-book\chapter4\guthub
+cd C:\github\angular\A_8_guthub
 node web-server.js

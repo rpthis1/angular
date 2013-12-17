@@ -45,7 +45,7 @@ app.controller('ViewCtrl', ['$scope', '$location', 'recipe',
   $scope.recipe = recipe;
 
   $scope.edit = function() {
-    $location.path('/edit/' + recipe.id);
+    $location.path('/edit/' + recipe._id);
   };
 }]);
 
@@ -55,7 +55,7 @@ app.controller('EditCtrl', ['$scope', '$location', 'recipe',
 
   $scope.save = function() {
     $scope.recipe.$save(function(recipe) {
-      $location.path('/view/' + recipe.id);
+      $location.path('/view/' + recipe._id);
     });
   };
 
@@ -73,7 +73,7 @@ app.controller('NewCtrl', ['$scope', '$location', 'Recipe',
 
   $scope.save = function() {
     $scope.recipe.$save(function(recipe) {
-      $location.path('/view/' + recipe.id);
+      $location.path('/view/' + recipe._id);
     });
   };
 }]);
