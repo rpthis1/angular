@@ -88,3 +88,12 @@ app.controller('IngredientsCtrl', ['$scope',
     $scope.recipe.ingredients.splice(index, 1);
   };
 }]);
+
+app.controller('NavCtrl', ['$scope','$location',
+    function($scope, $location) {
+
+        $scope.isActive = function (viewLocation) {
+            var active = (viewLocation === $location.path());
+            return active;
+        }
+    }]);

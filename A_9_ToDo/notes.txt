@@ -1,0 +1,9 @@
+**USING**
+-Boostrap
+-Angular
+-Node
+-Mongo
+
+**Bootstrap**
+-Fixed responsive nav var
+-jumbotron class
