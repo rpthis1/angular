@@ -97,3 +97,27 @@ app.controller('NavCtrl', ['$scope','$location',
             return active;
         }
     }]);
+
+app.controller('SpinnerController', ['$scope','$location','$rootScope','$window',
+    function($scope, $location, $rootScope, $window) {
+
+
+        $rootScope.$on('$routeChangeStart', function () {
+
+           if( $window.spinner !==  undefined)
+           {
+               console.log($window.spinner)
+            $window.spinner.spin();
+           }
+        });
+
+        $rootScope.$on('$routeChangeSuccess', function () {
+            if( $window.spinner !==  undefined)
+            {
+                console.log($window.spinner)
+                $window.spinner.stop();
+            }
+        });
+
+
+    }]);

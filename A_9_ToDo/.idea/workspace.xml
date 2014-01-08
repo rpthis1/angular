@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/vendor/spin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/controllers.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/list.html" afterPath="$PROJECT_DIR$/app/views/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../A_8_guthub/web-server2.js" afterPath="$PROJECT_DIR$/../A_8_guthub/web-server2.js" />
@@ -13,12 +15,12 @@
     <ignored mask="*.idea" />
     <ignored path=".idea/" />
     <file path="C:/p1/app/index.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1386048249967" ignored="false" />
-    <file path="/index.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387872076395" ignored="false" />
+    <file path="/index.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1389169022845" ignored="false" />
     <file path="/web-server2.js" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1386908660257" ignored="false" />
-    <file path="/Dummy.txt" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387873214904" ignored="false" />
-    <file path="/controllers.js" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387837052373" ignored="false" />
+    <file path="/Dummy.txt" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1389169248639" ignored="false" />
+    <file path="/controllers.js" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1389169537559" ignored="false" />
     <file path="/services.js" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1386734957627" ignored="false" />
-    <file path="/list.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387873912186" ignored="false" />
+    <file path="/list.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1389164956434" ignored="false" />
     <file path="/index_new.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387528739777" ignored="false" />
     <file path="/starter-template.css" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387836006225" ignored="false" />
     <file path="$PROJECT_DIR$/../A_8_guthub/app/views/list.html" changelist="1179ac3f-3b31-49a5-9d9e-0a8de71d5a68" time="1387841572044" ignored="false" />
@@ -42,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="82" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="38" column="6" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.4639376">
               <folding />
             </state>
           </provider>
@@ -63,7 +65,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="61" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
+            <state line="118" column="40" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,10 +80,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.08095238">
+            <state line="4" column="83" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="32" selection-start="279" selection-end="533" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spin.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/vendor/spin.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4425" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,17 +135,18 @@
         <option value="$PROJECT_DIR$/app/styles/guthub.css" />
         <option value="$PROJECT_DIR$/app/styles/starter-template.css" />
         <option value="$PROJECT_DIR$/notes.txt" />
+        <option value="$PROJECT_DIR$/app/views/list.html" />
+        <option value="$PROJECT_DIR$/app/scripts/vendor/spin.min.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/views/list.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="50" />
-    <option name="width" value="1452" />
-    <option name="height" value="912" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -172,70 +193,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guthub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A_9_ToDo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guthub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A_9_ToDo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guthub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A_9_ToDo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guthub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A_9_ToDo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -243,18 +200,18 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A_3_Form" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A_3_Form" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github\angular\A_9_ToDo\app\styles" />
       <recent name="C:\github\angular\A_9_ToDo\app\scripts\vendor" />
+      <recent name="C:\github\angular\A_9_ToDo\app\styles" />
       <recent name="C:\github\angular\A_9_ToDo\app\img" />
       <recent name="C:\github\angular\A_9_ToDo\app" />
       <recent name="C:\github\angular\angularjs-book\chapter4\guthub" />
@@ -346,7 +303,11 @@
       <created>1387844113365</created>
       <updated>1387844113365</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding edit button to note">
+      <created>1387874018397</created>
+      <updated>1387874018397</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -370,17 +331,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="50" width="1452" height="912" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29387188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28803962" sideWeight="0.6259947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21454929" sideWeight="0.62917596" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984799" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37400532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37082404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -434,7 +395,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding bootstrap nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding edit button to note" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -451,6 +412,7 @@
     <MESSAGE value="adding guthub app" />
     <MESSAGE value="wireing guthub to mongo" />
     <MESSAGE value="adding bootstrap nav" />
+    <MESSAGE value="adding edit button to note" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,11 +423,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="50" selection-end="50" vertical-scroll-proportion="0.019495413" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="10" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.019495413" />
@@ -506,11 +463,6 @@
         <state line="25" column="17" selection-start="352" selection-end="352" vertical-scroll-proportion="0.579809" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.45412844" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/guthub.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="11" selection-start="37" selection-end="37" vertical-scroll-proportion="0.07798165" />
@@ -523,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="61" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
@@ -537,16 +482,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/views/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="82" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+        <state line="4" column="83" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/list.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/vendor/spin.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.08095238">
+        <state line="1" column="4425" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="279" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="40" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.4639376">
           <folding />
         </state>
       </provider>
