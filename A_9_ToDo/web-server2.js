@@ -52,11 +52,11 @@ app.post('/recipes', function (req, res) {
             console.log("no notes");
         }
         else {
-            res.send(notes[0]);
+           // res.send(notes[0]);
         }
     });
 
-    recipe._id = "3343a";
+   // recipe._id = "3343a";
 
     res.send(recipe);
 });
