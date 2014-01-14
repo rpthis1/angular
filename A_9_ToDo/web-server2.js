@@ -44,6 +44,27 @@ app.get('/recipes/:_id', function (req, res) {
 
 });
 
+
+app.delete('/recipes/:_id', function (req, res) {
+
+    console.log("PRE : " + req.params._id);
+
+
+    if (req.params._id != "undefined") {
+        console.log("inn : " + req.params._id);
+        db.notes.remove({ '_id': ObjectId(req.params._id) }, function (err, notes) {
+            if (err || !notes) {
+                console.log("no notes");
+            }
+            else {
+                res.send(notes[0]);
+            }
+        });
+
+    }
+
+});
+
 app.post('/recipes', function (req, res) {
     var recipe = req.body;
 

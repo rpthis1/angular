@@ -60,8 +60,9 @@ app.controller('EditCtrl', ['$scope', '$location', 'recipe',
   };
 
   $scope.remove = function() {
-    delete $scope.recipe;
-    $location.path('/');
+      $scope.recipe.$delete(function(recipe) {
+          $location.path("/");
+      });
   };
 }]);
 
